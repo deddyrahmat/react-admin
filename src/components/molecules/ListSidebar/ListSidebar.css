@@ -1,0 +1,35 @@
+
+.sidebar-item{
+    padding: .75em 1em;
+    display: block;
+    transition: background-color .15s;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .sidebar-item:hover{
+    background-color: rgba(32, 213, 50, 0.1);
+    color: #fff;
+  }
+
+  .size-icon {
+    display: inline-block;
+    width: 1.5em;
+  }
+  
+  .sidebar-title{
+    display: flex;
+    font-size: .9em;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+
+  .sidebar-item.active, .sidebar-title.active{
+    color: yellow;
+  }
+
+  .sidebar-content{
+    padding-top: .25em;
+    height: auto;
+  }

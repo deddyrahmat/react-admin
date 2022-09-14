@@ -1,0 +1,13 @@
+.sidebar {
+    width: 50px;
+    background-color: green;
+    flex-shrink: 0;
+    height: 100%;
+    overflow: auto;
+    color: #fff;
+    transition: all .3s;
+}
+
+.sidebar.active {
+  width: 250px;
+}

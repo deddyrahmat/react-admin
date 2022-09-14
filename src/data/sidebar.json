@@ -1,0 +1,24 @@
+[
+    {
+        "path": "/",
+        "name": "Dashboard",
+        "icon": "FaHome"
+    },
+    {
+        "path": "/management-data",
+        "name": "Master Data Management",
+        "icon": "FaShoppingBag",
+        "childrens": [
+            {
+                "path": "/",
+                "name": "Dashboard",
+                "icon": "FaHome"
+            },
+            {
+                "path": "/",
+                "name": "Dashboard",
+                "icon": "FaHome"
+            }
+        ]
+    }
+]
