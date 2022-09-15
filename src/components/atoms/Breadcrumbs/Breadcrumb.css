@@ -1,0 +1,13 @@
+.breadcrumb-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: red !important;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}

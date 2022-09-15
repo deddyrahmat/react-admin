@@ -5,5 +5,6 @@ import RadioButtons from './RadioButtons';
 import Checkbox from './Checkbox';
 import TextArea from './TextArea';
 import Select from './Select';
+import Breadcrumbs from './Breadcrumbs';
 
-export { Loading, Input, RadioButtonsDonasi, RadioButtons, Checkbox, TextArea, Select};
+export { Loading, Input, RadioButtonsDonasi, RadioButtons, Checkbox, TextArea, Select, Breadcrumbs};

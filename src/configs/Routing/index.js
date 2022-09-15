@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Dashboard, MasterDataManagement } from '../../pages';
-import {Sidebar} from '../../components/organism';
+import {Navbar, Sidebar} from '../../components/organism';
 
 const Routing = () => {
     return (
         <BrowserRouter>
             <div className='d-flex' style={{height : '100vh'}}>
                 <Sidebar />
-                <div>
-                    <nav>tes</nav>
+                <div className='d-flex flex-column w-100'>
+                    <Navbar />
                     <Routes>
                         <Route path="/" element={<Dashboard />} />
                         <Route path="/dashboard" element={<Dashboard />} />
