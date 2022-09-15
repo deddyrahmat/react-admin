@@ -1,4 +1,4 @@
-import MasterDataManagement from './MasterDataManagement/index';
 import Dashboard from './Dashboard/index';
+import StandartMarkup from './StandartMarkUp//index';
 
-export {MasterDataManagement, Dashboard};
+export { Dashboard, StandartMarkup };

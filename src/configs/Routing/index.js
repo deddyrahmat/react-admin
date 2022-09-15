@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Dashboard, MasterDataManagement } from '../../pages';
+import { Dashboard, StandartMarkup } from '../../pages';
 import {Navbar, Sidebar} from '../../components/organism';
 
 const Routing = () => {
@@ -12,7 +12,7 @@ const Routing = () => {
                     <Routes>
                         <Route path="/" element={<Dashboard />} />
                         <Route path="/dashboard" element={<Dashboard />} />
-                        <Route path="/management-data/standart-markup" element={<MasterDataManagement />} />
+                        <Route path="/management-data/standart-markup" element={<StandartMarkup />} />
                     </Routes>
                 </div>
             </div>
