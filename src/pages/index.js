@@ -1,4 +1,5 @@
 import Dashboard from './Dashboard/index';
-import StandartMarkup from './StandartMarkUp//index';
+import StandardMarkup from './StandardMarkUp/index';
+import StandarCreatedMarkup from './CreateStandardMarkUp/index';
 
-export { Dashboard, StandartMarkup };
+export { Dashboard, StandardMarkup, StandarCreatedMarkup };

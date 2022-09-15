@@ -9,5 +9,5 @@
 
 
 .breadcrumb-item + .breadcrumb-item::before {
-    content: ">";
+    content: ">" !important;
 }

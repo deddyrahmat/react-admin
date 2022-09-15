@@ -1,0 +1,86 @@
+[
+    {
+        "id" : "1",
+        "preset_name" : "fligh mark up 1",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "33"
+    },
+    {
+        "id": "2",
+        "preset_name" : "fligh mark up 2",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "44"
+    },
+    {
+        "id": "3",
+        "preset_name" : "fligh mark up 3",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "23"
+    },
+    {
+        "id": "4",
+        "preset_name" : "fligh mark up 4",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "12"
+    },
+    {
+        "id": "5",
+        "preset_name" : "fligh mark up 5",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "3"
+    },
+    {
+        "id": "6",
+        "preset_name" : "fligh mark up 6",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "3"
+    },
+    {
+        "id": "7",
+        "preset_name" : "fligh mark up 7",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "3"
+    },
+    {
+        "id": "8",
+        "preset_name" : "fligh mark up 8",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "3"
+    },
+    {
+        "id": "9",
+        "preset_name" : "fligh mark up 9",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "48"
+    },
+    {
+        "id": "10",
+        "preset_name" : "fligh mark up 10",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "81"
+    },
+    {
+        "id": "11",
+        "preset_name" : "fligh mark up 11",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "100"
+    },
+    {
+        "id": "12",
+        "preset_name" : "fligh mark up 12",
+        "domestic_markup" : "IDR 95,000/Ticket",
+        "international_markup" : "IDR 95,000/Ticket",
+        "number_of_override" : "54"
+    }
+]

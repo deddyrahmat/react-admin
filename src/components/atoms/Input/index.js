@@ -1,21 +1,21 @@
 import React from 'react'
 import { Field, ErrorMessage } from 'formik'
-import TextError from '../TextError'
 import { Form, FormLabel } from 'react-bootstrap'
 
 function Input (props) {
-    const { label, name,  ...rest } = props;
+    const { label, name, error,  ...rest } = props;
 
 
     return (
-        
-        <div>
-            <div className="form-group">
-                <label htmlFor={name} className="font-weight-bold">{label}</label>
-                <Field id={name} name={name} {...rest} className="form-control" />
+        <>
+            <div className="mb-3 row">
+                <label htmlFor={name} className="col-sm-2 col-form-label">{label}</label>
+                <div className='col-sm-10'>
+                    <Field id={name} name={name} {...rest} className="form-control" />
+                    <p className='text-danger'>{error}</p>
+                </div>
             </div>
-            {/* <ErrorMessage component={TextError} name={name} /> */}
-        </div>
+        </>
     )
 }
 

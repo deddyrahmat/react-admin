@@ -19,12 +19,12 @@ const menuItem = [
         dropdown: <FaChevronRight />,
         childrens: [
             {
-                path: "/management-data/standart-markup",
-                name: "Standart Mark Up",
+                path: "/management-data/standard-markup",
+                name: "Standard Mark Up",
             },
             {
-                path: "/management-data/standart-service-fee",
-                name: "Standart Service Fee",
+                path: "/management-data/standard-service-fee",
+                name: "Standard Service Fee",
             },
             {
                 path: "/management-data/fee-type",
@@ -35,8 +35,8 @@ const menuItem = [
                 name: "Frequent Traveler Program",
             },
             {
-                path: "/management-data/standart-ancillery-fee",
-                name: "Standart Ancillery Fee",
+                path: "/management-data/standard-ancillery-fee",
+                name: "Standard Ancillery Fee",
             },
         ],
     },

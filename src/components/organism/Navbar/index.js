@@ -18,14 +18,14 @@ function Navbar() {
                 <div className="position-relative">
                     <FaBell />
                     <span
-                        class="position-absolute translate-middle p-1 bg-danger border border-light rounded-circle"
+                        className="position-absolute translate-middle p-1 bg-danger rounded-circle"
                         style={{ top: "20%", left: "80%" }}
                     ></span>
                 </div>
                 <div className="avatar">
                     <img
                         src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                        class="img-fluid rounded-circle"
+                        className="img-fluid rounded-circle"
                         alt="Avatar"
                     />
                 </div>
